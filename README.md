@@ -5,15 +5,15 @@
 ## Installation
 
 ```bash
-npm install --save @mhmd/vue-typed
+npm install --save @marcelohmdias/vue-typed
 # or
-yarn add @mhmd/vue-typed
+yarn add @marcelohmdias/vue-typed
 ```
 
 ## Example
 
 ```js
-import Typed from '@mhmd/vue-typed'
+import Typed from '@marcelohmdias/vue-typed'
 
 export default {
 

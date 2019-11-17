@@ -1,7 +1,7 @@
 {
-  "name": "@mhmd/vue-typed",
+  "name": "@marcelohmdias/vue-typed",
   "description": "The easiest way to define types in Vue props",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Marcelo H M Dias",
     "url": "https://github.com/marcelohmdias",
@@ -25,7 +25,8 @@
   "jsdelivr": "dist/Typed.umd.js",
   "scripts": {
     "build": "bili",
-    "lint": "eslint --ext .ts src/"
+    "lint": "eslint --ext .ts src/",
+    "prepublish": "yarn build"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.7.0",
