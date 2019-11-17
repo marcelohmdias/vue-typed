@@ -2,7 +2,15 @@
   "name": "@mhmd/vue-typed",
   "description": "The easiest way to define types in Vue props",
   "version": "0.1.0",
-  "main": "index.js",
-  "author": "Marcelo H M Dias <marcelohmdias@gmail.com> (https://github.com/marcelohmdias)",
-  "license": "MIT"
+  "author": {
+    "name": "Marcelo H M Dias",
+    "url": "https://github.com/marcelohmdias",
+    "email": "marcelohmdias@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Props",
+    "Typescript",
+    "Vue"
+  ],
 }
