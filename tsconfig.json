@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+
+    /* Basic Options */
+    "target": "ES2018",
+    "module": "es2015",
+    "lib": ["es2015"],
+    "outDir": "dist/",
+
+    /* Declaration configuration */
+    "declaration": true,
+    "declarationDir": "types/",
+
+    /* Strict Type-Checking Options */
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "strict": true,
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+
+    /* Advanced Options */
+    "forceConsistentCasingInFileNames": true
+  }
+}
