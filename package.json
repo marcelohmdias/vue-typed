@@ -13,6 +13,20 @@
     "Typescript",
     "Vue"
   ],
+  "files": [
+    "dist",
+    "types/"
+  ],
+  "cdn": "dist/Typed.umd.js",
+  "main": "dist/Typed.umd.js",
+  "module": "dist/Typed.esm.js",
+  "unpkg": "dist/Typed.min.js",
+  "types": "types/Typed.d.ts",
+  "jsdelivr": "dist/Typed.umd.js",
+  "scripts": {
+    "build": "bili",
+    "lint": "eslint --ext .ts src/"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.7.0",
     "@typescript-eslint/parser": "^2.7.0",
@@ -30,4 +44,12 @@
     "typescript": "^3.7.2",
     "vue": "^2.6.10"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelohmdias/vue-typed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcelohmdias/vue-typed/issues"
+  },
+  "homepage": "https://github.com/marcelohmdias/vue-typed#readme"
 }
